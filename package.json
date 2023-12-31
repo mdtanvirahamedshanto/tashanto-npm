@@ -1,0 +1,32 @@
+{
+  "name": "tashanto-npm",
+  "description": "TA Shanto NPM package for Test",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "author": {
+    "email": "mdtanvirahamedshanto@gmail.com",
+    "name": "Md Tanvir Ahamed Shanto",
+    "url": "https://github.com/mdtanvirahamedshanto/tashanto-npm"
+  },
+  "categories": [
+    "Education",
+    "Other",
+    "Testing"
+  ],
+  "keywords": [
+    "Shanto",
+    "tashanto",
+    "tashanto-npm"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
